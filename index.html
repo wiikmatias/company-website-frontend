@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="fi">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Kirjaudu - Ruosteinen Rauta OY</title>
+  <style>
+    main {
+      background-image: url(assets/img/unsplash\ images/neonbrand-tKvp2XBx4NE-unsplash.jpg);
+      height: 60vh;
+      display: grid;
+      justify-content: center;
+    }
+
+    .login-form {
+      display: grid;
+    }
+
+    .login-form>* {
+      margin: 0.5em 0;
+      padding: 1em 0.5em;
+    }
+
+    h1,
+    h2 {
+      color: #FFF9F5;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <div class="top-bar">
+      <img src="assets/img/logo/Logo dark.svg" alt="Company logo">
+      <a href="#" class="nav-button"><img src="nav-button.svg" alt="Nav-button"></a>
+    </div>
+    <nav>
+      <ul id="navList" class="hidden">
+        <li><a href="index.html">Etusivu</a></li>
+        <li><a href="template.html">Esimerkkisivu</a></li>
+        <li><a href="login.html" class="login-btn">Kirjaudu</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Kirjautuminen Ruosteinen Rauta Oy</h1>
+
+    <form class="login-form" action="">
+      <input type="text" name="username" id="" value="Käyttäjänimi">
+      <input type="text" name="password" id="" value="Salasana">
+      <button class="primary-btn">Kirjaudu sisään</button>
+    </form>
+
+    <img src="assets/img/logo/Logo light.svg" alt="Ruosteinen Rauta OY logo">
+
+    <h2>&copy; Ruosteinen Rauta Oy 2022</h2>
+
+  </main>
+
+</body>
+
+</html>
